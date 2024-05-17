@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-sm-12">
+         <div style="text-align: center;color: cornflowerblue;background-color: aquamarine;">
+             <h1>EMPLOYEE LOGIN</h1>
+         </div>
+  </div>
+</div>
+
+<div class="row" style="margin-top: 100px;">
+ <div class="col-sm-2"></div>    
+   <div style="text-align: right;" class="col-sm-3">Email</div>    
+   <div class="col-sm-3">
+     <input type="text" class="form-control" [(ngModel)]="email" placeholder="please enter your email....!"/>
+   </div>
+   <div class="col-sm-4"></div>    
+</div>
+
+
+<div class="row" style="margin-top: 20px;margin-bottom: 100px;">
+ <div class="col-sm-2"></div>    
+   <div style="text-align: right;" class="col-sm-3">password</div>    
+   <div class="col-sm-3">
+     <input type="text" class="form-control"  [(ngModel)]="password"  placeholder="please enter your password....!"/>
+   </div>
+   <div class="col-sm-4"></div>    
+</div>
+
+
+
+<div class="row">
+<div class="col-sm-4"></div>    
+ <div class="col-sm-3">
+      <input style="width: 150px;margin-bottom: 10px;" type="button" class="btn btn-success" value="Login" (click)="btnlogin()" />
+ </div>  
+ <div class="col-sm-2">
+   <input style="width: 150px;margin-bottom: 10px;margin-right: 40px;" type="button" class="btn btn-danger" value="Cancel" />
+</div>  
+</div>
+
+
